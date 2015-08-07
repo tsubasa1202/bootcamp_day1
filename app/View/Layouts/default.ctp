@@ -20,8 +20,8 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<?php
+		echo ("<meta name='viewport' content='width=device-width,initial-scale=1.0'>");
 		echo $this->Html->meta('icon');
-
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('stylesheet');
 		echo $this->Html->css('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');

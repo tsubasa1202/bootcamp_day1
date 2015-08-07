@@ -15,22 +15,36 @@ a:hover{
 	background: transparent;
 	border-color: transparent;
 	color: #fff;
-
+	height: 80px;
+	transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
 }
 .navbar-invisible .nav li a,
 .navbar-invisible .navbar-brand{
 	text-decoration: none;
 	color: #fff;
+	transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
 }
 header {
 	background-image: url(../img/header_img.png);
 	background-size: cover;
 	height: 360px;
 	position: relative;
+	background-attachment: fixed;
+	background-position: center;
 }
 aside {
 	background-color: #EEEEEE;
 	padding: 60px 0;
+	padding-bottom: 32768px;
+	margin-bottom: -32768px;
 }
 footer {
 	background-color: #333333;
@@ -64,4 +78,50 @@ article {
 .sentence{
 	font-size: 16px;
 	line-height: 2em;
+}
+.container-side{
+	overflow: hidden;
+}
+
+
+.navbar-invisible.navbar-shrink{
+	background: rgba(255,255,255,.8);
+	color: #333;
+	height: 50px;
+	transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.navbar-invisible.navbar-shrink .nav li a,
+.navbar-invisible.navbar-shrink .navbar-brand{
+	color: #D43F3A;
+	transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.navbar-brand{
+	padding:30px;
+}
+.navbar-shrink .navbar-brand{
+	padding:15px;
+}
+
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	   	transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-webkit-transition: all .3s linear;
+		-o-transition: all .3s linear;
+		-ms-transition: all .3s linear;
+	}
+	.navbar-shrink .navbar-nav>li>a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
 }
