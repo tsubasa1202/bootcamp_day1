@@ -7,7 +7,7 @@
 				<div class="col-sm-9">
 					<h2>吾輩は猫である</h2>
 					<p>私わたくしはその人を常に先生と呼んでいた。だからここでもただ先生と書くだけで本名は打ち明けない。これは世間を憚はばかる遠慮というよりも、その方が私にとって自然だからである。私はその人の記憶を呼び起すご...</p>
-					<p><a href="/topics/view">Continue Reading ...</a></p>
+					<p><a href="/detail/1">Continue Reading ...</a></p>
 					<span class="fa fa-tags"></span>
 					<a href="/cake/categories/view1">夏目漱石</a>
 					<a href="/cake/categories/view1">小説</a>
